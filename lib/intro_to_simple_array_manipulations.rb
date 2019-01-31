@@ -12,7 +12,7 @@ end
 
 def pop_with_args(array)
   array.collect do |ele| 
-    array.pop 
+    array.pop.reverse  
   end 
 end 
 
