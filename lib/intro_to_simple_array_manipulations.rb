@@ -17,7 +17,7 @@ def pop_with_args(array)
   new_array << array.pop
   i += 1
 end 
-  new_array[-1][0] 
+  new_array 
 end 
 
   
