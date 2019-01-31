@@ -12,7 +12,8 @@ end
 
 def pop_with_args(array)
  new_array = Array.new
-  for e in 
+  
+  array.each do |ele| 
   new_array << array.pop 
   end 
 end 
