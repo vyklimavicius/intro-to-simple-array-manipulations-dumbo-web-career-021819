@@ -11,8 +11,9 @@ def using_pop (array)
 end 
 
 def pop_with_args(array)
-  array.collect do |ele| 
-    array.pop.reverse  
+ new_array = Array.new
+  for e in 
+  new_array << array.pop 
   end 
 end 
 
